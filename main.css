@@ -1,0 +1,62 @@
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+#description{
+    width:100%;
+    text-align: center;
+}
+
+button{
+    margin: 10px;
+}
+
+#letter_container{
+    width: 90%;
+    height: 80px;
+    background: red;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.letter{
+    color:#fff;
+    font-size: 25px;
+    margin: 10px;
+    outline: 1px solid #fff;
+    padding: 5px;
+    width: 20px;
+}
+
+.letter:hover{
+    cursor: pointer;
+}
+
+.letter_word, .letter_zwischen{
+    font-size: 30px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
+
+#wort{
+    display:flex;
+    justify-items: flex-start;
+    align-items: center;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+.clicked{
+    background:gray;
+    color:black;
+}
+
+#gallows{
+    outline: 1px solid black;
+}

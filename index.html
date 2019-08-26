@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Galgenraten</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <p id="description">
+            Das gesuchte Wort kommt aus dem Bereich Urlaub. <br>
+            Im Ganzen sind 10 Worte im Pool, die zufällig ausgewählt werden. <br>
+            Bei jedem Buchstaben, der nicht im Wort vorkommt, wird der Galgen weiter ausgebaut. <br>
+            Jeder richtig erratene Buchstabe wird an der richtigen Stelle im Wort eingetragen. <br>
+            Und jetzt... viel Spaß!
+        </p>
+        <h3>Das gesuchte Wort hat folgende Stellen:</h3>
+        <div id="wort_container">
+            <div id="wort"></div>
+        </div>
+
+        <div id="letter_container">
+            
+        </div>
+        <div id="result_display">
+            Bisherige Versuche:<span id="versuche"></span><br>
+            Bisherige Fehler:<span id="fehler"></span><br>
+        </div>
+
+        <canvas id="gallows" width="500" height="500"></canvas>
+        <button onclick="newGame()">Neues Spiel</button>
+    </div>
+</body>
+</html>
